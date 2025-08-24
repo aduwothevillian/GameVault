@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/gamevault-core.clar'
 clarity_version = 3
 epoch = 3.0
+
+[contracts.player-management]
+path = 'contracts/player-management.clar'
+clarity_version = 3
+epoch = 3.0
 [repl.analysis]
 passes = ['check_checker']
 
